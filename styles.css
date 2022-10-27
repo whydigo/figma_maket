@@ -1,0 +1,397 @@
+* div {
+   margin-left: auto;
+   margin-right: auto;
+   box-sizing: border-box;
+   font-family: "Gilroy";
+}
+
+body {
+   background-color: #e2e2e2;
+}
+
+/*Навигация*/
+.Navigation_Bar {
+   width: 1440px;
+   height: 116px;
+   background: #FAFAFA;
+   display: flex;
+   margin-top: -5px;
+}
+
+.logo {
+   font-family: "HomemadeApple";
+   font-size: 18px;
+   padding: 20px 350px 0 70px;
+}
+
+.links {
+   font-size: 18px;
+   margin-top: 20px;
+   padding: 22px 0 0 50px;
+}
+
+.links_pad {
+   margin-top: 20px;
+   font-size: 18px;
+   padding: 22px 290px 0 50px;
+}
+
+.Button_Secondary {
+   font-size: 18px;
+   margin: auto;
+   padding: 10px 20px 10px 20px;
+   color: #F7941E;
+   border: 1px solid #F7941E;
+   border-radius: 5%;
+}
+
+
+
+/*Блок с правой картинкой*/
+.right_image_block {
+   width: 1440px;
+   height: 700px;
+   background-color: #F1F1F2;
+   display: flex;
+}
+
+.content {
+   margin: 154px 126px 340px 162px;
+   font-size: 20px;
+}
+
+.title2 {
+   margin-top: -7px;
+   font-weight: bolder;
+   font-size: 32px;
+   line-height: 68px;
+}
+
+.find {
+   background-color: #F7941E;
+   width: 200px;
+   height: 60px;
+   padding: 20px 0 0 39px;
+   margin-left: 0;
+   font-size: 18px;
+   color: #F1F1F2;
+   border-radius: 5%;
+   margin-top: 60px;
+}
+
+.first {
+   display: flex;
+   justify-content: center;
+   width: 1440px;
+}
+
+
+
+
+/*Второй слайд*/
+.second {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-end;
+   width: 1440px;
+   margin-top: -5px;
+}
+
+.left_image_block {
+   width: 1440px;
+   height: 600px;
+   background-color: #F1F1F2;
+   display: flex;
+}
+
+.content {
+   margin: 154px 126px 340px 162px;
+   font-size: 20px;
+}
+
+.title {
+   margin-top: -7px;
+   font-weight: bolder;
+   font-size: 56px;
+   line-height: 68px;
+}
+
+.find2 {
+   width: 200px;
+   height: 60px;
+   padding: 17px 0 0 40px;
+   margin-left: 0;
+   font-size: 18px;
+   color: #F7941E;
+   border: solid #F7941E;
+   border-radius: 5%;
+   margin-top: 35px;
+}
+
+
+/*Посты*/
+.text {
+   text-align: center;
+   font-size: 18px;
+   width: 1440px;
+   margin-bottom: -20px;
+   background-color: white;
+}
+
+.title3 {
+   margin-top: -5px;
+   text-align: center;
+   font-size: 32px;
+   font-weight: bold;
+   padding-top: 96px;
+}
+
+.post {
+   height: 700px;
+   width: 1440px;
+   background-color: #ffffff;
+}
+
+.post_img {
+   display: flex;
+   justify-content: center;
+}
+
+.rect {
+   margin: 60px 20px 0 20px;
+}
+
+.rectsh {
+   margin: 60px 20px 0 20px;
+   box-shadow: -12px 10px 15px 0px #0000004A;
+}
+
+.description {
+   background-color: rgb(126, 126, 126);
+   width: 1280px;
+   height: 100px;
+   padding: 10px;
+}
+
+.img_text_sh {
+   background-color: rgb(255, 255, 255);
+   height: 190px;
+   width: 290px;
+   padding: 20px;
+   font-size: 20px;
+   margin-top: -5px;
+}
+
+.img_text {
+   background-color: rgb(245, 245, 245);
+   height: 190px;
+   width: 290px;
+   padding: 20px;
+   font-size: 20px;
+   margin-top: -5px;
+}
+
+.seemore {
+   font-size: 14px;
+   font-family: "Roboto";
+   height: 20px;
+   width: 75px;
+   padding: 90px 179px 24px 0px;
+}
+
+
+/*Переход*/
+.CTA {
+   width: 1440px;
+   height: 230px;
+   background-color: #F7941E;
+}
+
+.ready {
+   width: 365px;
+   height: 45px;
+   font-size: 32px;
+   margin-top: 81px
+}
+
+.button1 {
+   width: 400px;
+   font-size: 18px;
+   align-items: center;
+   display: flex;
+}
+
+.find3 {
+   background-color: #262524;
+   width: 185px;
+   color: #e2e2e2;
+   border-radius: 5%;
+   text-align: center;
+   height: 60px;
+}
+
+.find4 {
+   width: 185px;
+   color: #000000;
+   border-radius: 5%;
+   text-align: center;
+   height: 60px;
+   border: 1px solid black;
+}
+
+.rod {
+   display: flex;
+   width: 80%;
+   height: 235px;
+   justify-content: space-around;
+}
+
+/*Топ блог пост*/
+.blogtop {
+   width: 1440px;
+   height: 1026px;
+   background-color: white;
+}
+
+.smiling {
+   margin-top: 100px;
+   width: 1170px;
+   height: 370px;
+   background-color: #231F20;
+   display: flex;
+   color: #e2e2e2;
+}
+
+.t1 {
+   font-size: 14px;
+   padding-left: 100px;
+   padding-top: 63px;
+}
+
+.t2 {
+   font-size: 18px;
+   padding-left: 100px;
+}
+
+.title4 {
+   margin-top: -7px;
+   font-weight: bolder;
+   font-size: 48px;
+   line-height: 68px;
+   padding: 10px 100px 40px 100px;
+}
+
+.lastblogs {
+   display: flex;
+   width: 1200px;
+   margin-top: 40px;
+}
+
+.boardleft {
+   width: 570px;
+   height: 290px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 10px 10px 15px 0px #0000000D;
+}
+
+.boardright {
+   width: 570px;
+   height: 290px;
+   display: flex;
+   flex-direction: column;
+}
+
+.lasttitle {
+   font-size: 24px;
+   font-weight: bolder;
+   width: 474px;
+   height: 68px;
+   padding-left: 48px;
+   line-height: 33.75px;
+}
+
+.lasttext {
+   font-size: 18px;
+   width: 474px;
+   height: 72px;
+   padding: 0 48px 0px 48px;
+   line-height: 25.31px;
+}
+
+.lastread {
+   font-size: 14px;
+   height: 20px;
+   width: 80px;
+   padding-left: 48px;
+   padding-right: 458px;
+   line-height: 19.69px;
+}
+
+/*Подвал*/
+.basement {
+   width: 1440px;
+   height: 410px;
+   background-color: #FAFAFA;
+
+}
+
+.lastlinks {
+   display: flex;
+   padding-top: 106px;
+   align-items: center;
+   width: 850px;
+}
+
+.logo2 {
+   padding: 20px 141px 0 141px;
+   color: #F7941E;
+}
+
+.links2 {
+   font-weight: bold;
+   padding-right: 50px;
+   line-height: 19.69px;
+   font-size: 14px;
+}
+
+hr {
+   width: 1100px;
+   border: 1px solid;
+}
+
+.deep {
+   display: flex;
+   justify-content: space-around;
+   width: 300px;
+   padding-top: 35px;
+}
+
+.elements {
+   display: flex;
+   width: 300px;
+   padding-top: 55px;
+   padding-bottom: 0px;
+}
+
+/*Fonts*/
+@font-face {
+   font-family: "Roboto";
+   src: url(fonts/Roboto-Light.ttf);
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: "HomemadeApple";
+   src: url(fonts/HomemadeApple.ttf);
+   font-style: normal;
+   font-weight: normal;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url(fonts/Gilroy-Light.ttf);
+   font-style: normal;
+   font-weight: normal;
+}
